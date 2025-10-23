@@ -34,6 +34,13 @@ body {
   max-width: 480px;
 }
 
+.msg {
+  margin-top: 5%;
+  font-size: .75rem;
+  font-style: italic;
+  color: grey;
+}
+
 /* header */
 .timer-text .text {
   font-size: 0.9rem;
@@ -105,7 +112,7 @@ button:disabled {
   cursor: not-allowed;
 }
 
-/* subtle glow on active */
+
 button:active:not(:disabled) {
   transform: translateY(0);
 }

@@ -42,8 +42,6 @@ function App() {
 
   const format = (t) => String(t).padStart(2, "0");
 
-  // const timeDisplay = `${days.toString().padStart(2, "0")}:${hours.toString().padStart(2, "0")}:${mins.toString().padStart(2, "0")}:${secs.toString().padStart(2, "0")}`;
-
   return (
     <div className="container">
       <section className="time-container">
@@ -64,6 +62,9 @@ function App() {
           Reset
         </button>
       </section>
+       <small className="msg">
+        Refresh browser to get a new time
+      </small>
     </div>
   );
 }
