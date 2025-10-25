@@ -44,7 +44,7 @@ body {
 .timer-text .text {
   font-size: 0.9rem;
   color: #555;
-  letter-spacing: 1.5px;
+  word-spacing: 25px;
 }
 
 /* timer */
