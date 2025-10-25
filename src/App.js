@@ -45,11 +45,6 @@ function App() {
   return (
     <div className="container">
       <section className="time-container">
-        <header className="timer-text">
-          <small className="text">
-            Days | Hours | Mins | Secs
-          </small>
-        </header>
         <h1 className="time">
          <span className="days">{format(days)}</span>:<span className="hours">{format(hours)}</span>:<span className="mins">{format(mins)}</span>:<span className="secs">{format(secs)}</span>
         </h1>

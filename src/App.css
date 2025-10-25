@@ -41,7 +41,7 @@ body {
 }
 
 /* header */
-.timer-text .text {
+.timer-text {
   font-size: 0.9rem;
   color: #555;
   word-spacing: 25px;
